@@ -2,7 +2,7 @@
 
 Original repository: <https://git.coolaj86.com/coolaj86/rsa-csr.js>
 
-Zero-dependency to generate Certificate Signing Requests (CSR) and sign them.
+Zero-dependency library that generates Certificate Signing Requests (CSRs) and signs them.
 
 ## Usage
 
