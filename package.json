@@ -1,8 +1,8 @@
 {
-  "name": "rsa-csr",
-  "version": "1.0.5",
-  "description": "💯 A focused, zero-dependency library to generate a Certificate Signing Request (CSR) and sign it!",
-  "homepage": "https://git.coolaj86.com/coolaj86/rsa-csr.js",
+  "name": "@small-tech/rsa-csr",
+  "version": "1.0.0",
+  "description": "Fork rsa-csr (removes telemetry… yes, it had telemetry *smh*). A focused, zero-dependency library to generate a Certificate Signing Request (CSR) and sign it.",
+  "homepage": "https://github.com/aral/rsa-csr.js.git",
   "main": "index.js",
   "bin": {
     "rsa-csr": "bin/rsa-csr.js"
@@ -16,12 +16,11 @@
     "lib": "lib"
   },
   "scripts": {
-    "postinstall": "node lib/telemetry.js event:install",
     "test": "bash test.sh"
   },
   "repository": {
     "type": "git",
-    "url": "https://git.coolaj86.com/coolaj86/rsa-csr.js"
+    "url": "https://github.com/aral/rsa-csr.js.git"
   },
   "keywords": [
     "zero-dependency",
@@ -30,5 +29,8 @@
     "x509"
   ],
   "author": "AJ ONeal <coolaj86@gmail.com> (https://coolaj86.com/)",
+  "contributors": [
+    "Aral Balkan <mail@ar.al> (https://ar.al)"
+  ],
   "license": "MPL-2.0"
 }
